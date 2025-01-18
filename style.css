@@ -5,6 +5,12 @@
     font-family: 'Poppins',sans-serif;
 }
 
+.container{
+    background: none;
+    padding-top: 30%;
+    
+}
+
 body{
     background: #1f242d;  
 }
@@ -24,4 +30,22 @@ a {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
+
+.navbar .logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin-left: 35px;
+}
+
+.navbar ul li a{
+    font-size: 20px;
 }
