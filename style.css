@@ -456,6 +456,68 @@ h3.my-profession{
     background-color: var(--skin-color);
 }
 
+.about .about-content .skills .skill-item .progress .js{
+    animation-name: progresskey;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes progresskey {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 76%;
+    }
+}
+
+.about .about-content .skills .skill-item .progress .php{
+    animation-name: progresskey;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes progresskey {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 66%;
+    }
+}
+
+.about .about-content .skills .skill-item .progress .html{
+    animation-name: progresskey;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-direction: normal;
+}
+
+@keyframes progresskey {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 96%;
+    }
+}
+
+.about .about-content .skills .skill-item .progress .bootstrap{
+    animation-name: progresskey;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes progresskey {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 76%;
+    }
+}
+
 .about .about-content .skills .skill-item .skill-percent
 {
     position: absolute;
